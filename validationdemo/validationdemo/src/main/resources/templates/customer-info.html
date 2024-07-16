@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>customer Info</title>
+
+</head>
+<body>
+    Customer Name:<span th:text="${customer.firstName + ' ' + customer.lastName}"/>
+    free passes :<span th:text="${customer.freePasses}"/>
+
+</body>
+</html>
